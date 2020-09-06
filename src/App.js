@@ -60,6 +60,8 @@ const App = () => {
 
   
 	return (
+    <div class='hero-text'>
+     Temperature Control
      <div className='app-container'>
        <div className='temperature-display-container'>
          <div className={`temperature-display ${temperatureColor}`}>{temperatureValue}°C</div>
@@ -68,6 +70,7 @@ const App = () => {
         <button onClick={increaseTemperature}>+</button>
         <button onClick={decreaseTemperature}>-</button>
       </div>
+    </div>
     </div>
   );
 };
