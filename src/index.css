@@ -6,20 +6,23 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-  min-height: 100vh;
-  background-color: blue;
+  	min-height: 100vh;
+	background-image: url("./images/warm.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
 }
 
 .background-cold {
-  background: #0022c9;
+  background-image: url("./images/cold.png");
 }
 
 .background-warm {
-  background: #5d567c;
+  background-image: url("./images/warm.png");
 }
 
 .background-hot {
-  background: #f00a0a;
+  background-image: url("./images/hot.png");
 }
 .app-container {
 	height: 400px;
